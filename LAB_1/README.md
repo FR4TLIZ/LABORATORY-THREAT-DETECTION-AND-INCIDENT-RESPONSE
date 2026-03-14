@@ -14,9 +14,16 @@ The provided script (`Raport_Maxer.sh`) automates the collection of system confi
 
 1. Make the script executable:
    ```bash
-   chmod +x Raport_Maxer.sh.sh
+   chmod +x Raport_Maxer.sh
+   ```
+
 2. Execute the script with root privileges:
    ```bash
-   sudo ./Raport_Maxer.sh.sh
+   sudo ./Raport_Maxer.sh
+   ```
 
-Security Note: We run the script using "sudo" directly from the terminal rather than hardcoding "sudo" commands inside the script itself. Hardcoding privileges inside scripts is considered a bad security practice.
+*Security Note: We run the script using "sudo" directly from the terminal rather than hardcoding "sudo" commands inside the script itself. Hardcoding privileges inside scripts is considered a bad security practice.*
+
+## Author
+
+* Kacper Powolny (279435)
